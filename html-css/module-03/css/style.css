@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu:300,700");
+
+main,
+header {
+  margin: 0 auto;
+  width: 900px;
+  text-align: center;
+}
+.mainnav {
+  margin-top: 60px;
+}
+main {
+  margin-top: 60px;
+  text-align: justify;
+}
+article {
+  width: 420px;
+  display: inline-block;
+  text-align: left;
+}
+.second {
+  margin-left: 56px;
+}
+.mainnav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 40px;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+}
+.mainnav ul li a {
+  text-decoration: none;
+  color: #626262;
+}
+.mainnav ul li a:hover {
+  color: #7fd9c7;
+}
+.mainnav ul li a:active {
+  color: #ff0000;
+}
+.category {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #b4ad9e;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+article p {
+  font-family: "Playfair Display", serif;
+}
